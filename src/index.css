@@ -24,3 +24,53 @@
   justify-content: flex-start;
   background-color: rgba(255, 255, 255, 1);
 }
+
+.home-text {
+  height: 77px;
+  font-family: Arial Black;
+  padding-top: 5px;
+}
+
+.home-text1 {
+  top: 170px;
+  left: 28px;
+  position: absolute;
+  font-family: Arial Black;
+}
+
+.home-button {
+  top: 100px;
+  right: 28px;
+  width: 41px;
+  height: 44px;
+  position: absolute;
+  font-size: 10px;
+  font-family: Arial Black;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  background-color: #4285f4;
+  border-radius: 5px;
+}
+
+.home-text-input {
+  top: 100px;
+  left: 28px;
+  width: 237px;
+  height: 23px;
+  position: absolute;
+  padding-right: var(--dl-space-space-half-unit);
+  color: var(--dl-color-gray-black);
+  cursor: auto;
+  padding: 0.5rem 1rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 3px;
+  border-radius: 5px;
+  background-color: C2D3EF;
+}
+
+/* .home-todo-tasks {
+  top: 170px;
+  left: 28px;
+  position: absolute;
+  font-family: Arial Black;
+} */
