@@ -46,7 +46,7 @@ const TodoSignUp: React.FC = () => {
           </span>
           <div className="sign-up-page-icon-set">
             <img
-              src="/public/flat-color-icons-google.jpg"
+              src="flat-color-icons-google.jpg"
               alt="Google"
               className="sign-up-page-flat-color-icons-google"
             />
@@ -56,7 +56,7 @@ const TodoSignUp: React.FC = () => {
               className="sign-up-page-uil-apple"
             />
             <img
-              src="/logos-facebook1084-db-sb.jpg"
+              src="/logos-facebook.jpg"
               alt="Facebook"
               className="sign-up-page-logos-facebook"
             />

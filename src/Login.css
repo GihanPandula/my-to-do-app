@@ -1,4 +1,4 @@
-.sign-up-page-container {
+.login-page-container {
   width: 100%;
   display: flex;
   overflow: auto;
@@ -8,7 +8,7 @@
   background-color: #4285f4;
 }
 
-.sign-up-page {
+.login-page-login-page {
   display: flex;
   width: 430px;
   height: 932px;
@@ -20,7 +20,13 @@
   background: #fff;
 }
 
-.sign-up-page-heading {
+.login-page-frame1 {
+  width: 265px;
+  height: 612px;
+  flex-shrink: 0;
+}
+
+.login-page-text {
   color: #000;
   text-align: center;
   font-family: Inter;
@@ -30,37 +36,19 @@
   line-height: normal;
 }
 
-.sign-up-page-description {
-  width: 264px;
+.login-page-text2 {
+  width: 262px;
+  flex-shrink: 0;
   color: #000;
   text-align: center;
-  font-family: Arial;
+  font-family: Inter;
   font-size: 15px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
 }
 
-.sign-up-page-input-field1 {
-  display: flex;
-  width: 430px;
-  height: 932px;
-  padding: 122px 80px;
-  flex-direction: column;
-  align-items: center;
-  gap: 48px;
-}
-
 .input-sign-up-page-text-input {
-  width: 264px;
-  height: 46px;
-  flex-shrink: 0;
-  border-radius: 25px;
-  background: #b6d5fa;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-.input-sign-up-page-text-input1 {
   width: 264px;
   height: 46px;
   flex-shrink: 0;
@@ -78,32 +66,7 @@
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.sign-up-page-sign-up-btn-button {
-  display: flex;
-  width: 196px;
-  height: 47px;
-  padding: 10px;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-  flex-shrink: 0;
-  border-radius: 25px;
-  background: #4285f4;
-  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-}
-
-.sign-up-page-text10 {
-  color: #000;
-  text-align: center;
-  font-family: Inter;
-  font-size: 16px;
-  font-style: normal;
-  font-weight: 800;
-  line-height: normal;
-}
-
-.sign-up-page-text12 {
-  width: 150px;
+.login-page-text4 {
   color: #000;
   text-align: center;
   font-family: Inter;
@@ -113,19 +76,49 @@
   line-height: normal;
 }
 
-.sign-up-page-flat-color-icons-google {
+.login-page-login-btn1 {
+  display: flex;
+  width: 196px;
+  height: 47px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  flex-shrink: 0;
+  border-radius: 25px;
+  background: rgba(182, 213, 250, 0.39);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.login-page-text6 {
+  color: #4285f4;
+  text-align: center;
+  font-family: Inter;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 800;
+  line-height: normal;
+}
+
+.login-page-icons {
+  width: 265px;
+  height: 612px;
+  flex-shrink: 0;
+}
+
+.login-page-flat-color-icons-google {
   width: 48px;
   height: 48px;
   flex-shrink: 0;
 }
 
-.sign-up-page-uil-apple {
+.login-page-uil-apple {
   width: 48px;
   height: 48px;
   flex-shrink: 0;
 }
 
-.sign-up-page-logos-facebook {
+.login-page-logos-facebook {
   width: 48px;
   height: 48px;
   flex-shrink: 0;
