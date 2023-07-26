@@ -1,9 +1,11 @@
-import { TodoHome } from "./TodoHome";
+// import TodoHome from "./TodoHome";
+import TodoSignUp from "./TodoSignUp";
 
 function App() {
   return (
     <div className="App">
-      <TodoHome />
+      {/* <TodoHome /> */}
+      <TodoSignUp />
     </div>
   );
 }

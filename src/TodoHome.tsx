@@ -1,6 +1,9 @@
 import React from "react";
 
-export const TodoHome = () => {
+interface TodoHomeProps {
+}
+
+const TodoHome: React.FC<TodoHomeProps> = () => {
   return (
     <>
       <div className="home-page-container">
@@ -42,3 +45,5 @@ export const TodoHome = () => {
     </>
   );
 };
+
+export default TodoHome;
