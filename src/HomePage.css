@@ -1,0 +1,71 @@
+.welcome-to {
+  margin: 0;
+}
+.welcome-to-my-container {
+  align-self: stretch;
+  position: relative;
+  font-weight: 800;
+}
+.my-todo1 {
+  font-size: 0.94rem;
+}
+.add-your-tasks-container {
+  align-self: stretch;
+  position: relative;
+  font-size: 0.88rem;
+}
+.welcome-to-my-todo-parent {
+  position: absolute;
+  top: 18.94rem;
+  left: 3.81rem;
+  width: 19.19rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 2.19rem;
+}
+.home-page-child {
+  position: absolute;
+  top: 8.5rem;
+  left: 9.56rem;
+  width: 7.69rem;
+  height: 6.81rem;
+}
+.sign-up {
+  flex: 1;
+  position: relative;
+  font-weight: 800;
+}
+.log-in-btn-button,
+.sign-up-btn-button {
+  align-self: stretch;
+  cursor: pointer;
+}
+.log-in-btn-button {
+  color: #4285f4;
+}
+.sign-up-btn-button-parent {
+  position: absolute;
+  top: 39.5rem;
+  left: 7.31rem;
+  width: 12.25rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 1.63rem;
+  font-size: 1rem;
+}
+.home-page {
+  position: relative;
+  border-radius: 25px;
+  background-color: #fff;
+  width: 100%;
+  height: 58.25rem;
+  overflow: hidden;
+  text-align: center;
+  font-size: 2rem;
+  color: #000;
+  font-family: Inter;
+}
