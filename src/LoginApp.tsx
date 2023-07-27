@@ -27,14 +27,14 @@ const LoginApp: FunctionComponent = () => {
           size="middle"
           placeholder="Enter Email"
           allowClear
-          bordered={false}
+          bordered={true}
         />
         <Input.Password
           className="frame-child"
           size="middle"
           placeholder="Enter Password"
           allowClear
-          bordered={false}
+          bordered={true}
         />
       </div>
       <div className="forgot-password-parent">
@@ -43,7 +43,11 @@ const LoginApp: FunctionComponent = () => {
           <div className="log-in1">Log in</div>
         </div>
       </div>
-      <img className="icon-set" alt="Google Apple Facebook" src="/iconSet.svg" />
+      <img
+        className="icon-set"
+        alt="Google Apple Facebook"
+        src="/iconSet.svg"
+      />
     </div>
   );
 };

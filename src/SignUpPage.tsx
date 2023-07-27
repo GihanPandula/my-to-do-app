@@ -13,6 +13,7 @@ const SignUpPage: FunctionComponent = () => {
   //   }, [navigate]);
 
   return (
+    // <div className="sign-up-container">
     <div className="sign-up-page">
       <div className="sign-up-parent">
         <div className="sign-up1">Sign Up!</div>
@@ -27,7 +28,7 @@ const SignUpPage: FunctionComponent = () => {
           size="middle"
           placeholder="Enter Email"
           allowClear
-          bordered={false}
+          bordered={true}
         />
         <Input
           className="email-input"
@@ -35,7 +36,7 @@ const SignUpPage: FunctionComponent = () => {
           size="middle"
           placeholder="Enter Name"
           allowClear
-          bordered={false}
+          bordered={true}
         />
 
         {/* ANT */}
@@ -45,7 +46,7 @@ const SignUpPage: FunctionComponent = () => {
           size="middle"
           placeholder="Enter Password"
           allowClear
-          bordered={false}
+          bordered={true}
         />
       </div>
       <div className="sign-up-btn-button1">
@@ -58,6 +59,7 @@ const SignUpPage: FunctionComponent = () => {
         src="/iconSet.svg"
       />
     </div>
+    // </div>
   );
 };
 
